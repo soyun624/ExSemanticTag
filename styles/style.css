@@ -1,0 +1,122 @@
+html{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 auto;
+    background-color:#a5c093;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+}
+
+#wrapper{
+    width: 1000px;
+    background-color: white;
+    margin: 0 auto;
+    padding: 0 15px;
+    
+}
+
+
+nav{
+    background-color: #368cbf;
+}
+nav ul{
+    margin: 15px auto;
+    padding: 0;
+    text-align: center;
+}
+
+nav li{
+    display: inline-block;
+    width: 190px;
+    padding:15px 0;
+}
+
+nav li a{
+    color: white; 
+    text-decoration: none;
+}
+nav li:hover{
+    background-color: #84bada;
+    cursor: pointer;
+}
+main{
+    display: table;
+    clear: both;
+}
+
+section{
+    float: left;
+    margin: 20px 0;
+    margin-bottom: 30px;
+    padding: 0;
+    
+}
+
+.s1{
+    width: 25%;
+    margin-left: 14px;
+     margin-right: 2vw;
+}
+.s2{
+    width: 45%;
+    margin-right:9px;
+}
+.s3{
+    width: 25%;
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+h3{
+    font-size: 19px;
+}
+section img{
+    width: 220px;
+
+}
+article{
+    background-color: #eaeaea;
+    padding-top: 5px;
+    padding-top: 5px;
+    margin-bottom: 10px;
+    
+}
+article p{
+    padding: 0 10px;
+    padding-bottom: 20px;
+}
+
+article p span{
+    color:rgb(19, 70, 128);
+    font-weight: 600;
+    font-size: 19px;
+}
+
+.italic{
+    color:black;
+    font-weight: normal;
+    font-style: italic;
+}
+
+figcaption{
+    font-size: 15px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    color: rgb(45, 8, 114);
+}
+
+footer{
+    border-top: gray solid 1px;
+    color: gray;
+    padding: 20px;
+}
+
+footer a{
+    color: gray;
+    text-decoration: none;
+}
+
