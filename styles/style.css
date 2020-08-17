@@ -2,6 +2,10 @@ html{
     box-sizing: border-box;
 }
 
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
 body{
     margin: 0 auto;
     background-color:#a5c093;
@@ -45,31 +49,28 @@ nav li:hover{
 main{
     display: table;
     clear: both;
+    margin-bottom: 30px;
 }
 
 section{
     float: left;
-    margin: 20px 0;
-    margin-bottom: 30px;
-    padding: 0;
+    margin: 0 auto;
+    padding: 20px 0;
+
     
 }
 
 .s1{
     width: 25%;
-    margin-left: 14px;
-     margin-right: 2vw;
+    margin-left: 1.5%;
+
 }
 .s2{
-    width: 45%;
-    margin-right:9px;
+    width: 46%;
+    margin: 0 2%;
+
 }
-.s3{
-    width: 25%;
-    display:flex;
-    justify-content: center;
-    align-items: center; 
-}
+
 
 h3{
     font-size: 19px;
@@ -100,6 +101,7 @@ article p span{
     color:black;
     font-weight: normal;
     font-style: italic;
+    font-size: 15px;
 }
 
 figcaption{
